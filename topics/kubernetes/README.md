@@ -2,7 +2,7 @@
 
 One can get the spec of any kubernetes object using below command
 
-## kubectl explain object
+### kubectl explain object
 
 ex: kubectl explain pod
 kubectl explain pod.spec
