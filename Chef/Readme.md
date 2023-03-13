@@ -9,6 +9,9 @@ Chef is a tool used for Configuration Management which closely competes with Pup
 In this Chef Tutorial following topics will be covered:
 
 Chef Architecture
+
+![image](https://user-images.githubusercontent.com/61962773/224634864-3ed98014-7e90-45b8-b5c6-6979a6eb327a.png)
+
 Hands-on Demo
 The first section of this Chef Tutorial blog will explain you the Chef architecture in detail, which will clear all your doubts.
 
