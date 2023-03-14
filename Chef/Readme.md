@@ -450,3 +450,53 @@ chef-client
 I hope you enjoyed this Chef Tutorial and learned how Chef can be used to configure hundreds of Nodes. Chef is playing a vital role in many organizations to achieve DevOps. With Chef organizations are releasing applications more frequently and reliably.
 
 So that brings an end to this blog on Chef Tutorial. If you wish to check out more articles on the market’s most trending technologies like Artificial Intelligence, Python, Ethical Hacking, then you can refer to Edureka’s official site.
+
+
+
+Cheatsheet
+
+Chef- Knife commands cheat sheet
+
+knife commands:
+
+knife cookbook create apache — to create cookbook
+
+knife cookbook upload apache — to upload cookbook to chef-server
+
+knife node run_list add NODENAME “recipe[NAME]” — to add receipe as a runlist to node
+
+knife node run_list add NODENAME -b “recipe[NAME]” “recipe[NAMEOFUPLOADING]” — to add a recipe before partcular recipe- useful comamnd to define the preecedence of recipes in a runlist
+
+knife -h == knife help command
+
+knife node show NODENAME -a attribites(a-b-c-d)0- commanmd to show the attributes of the node
+
+knife search node “os:linux” — search for node which are linux nodes
+
+knife search node “os:linux” -a platform — search for niode which are linux nodes and shows playtform
+
+knife search node “os:linux” -a linux.model give me the result of linux as linux.model =ubuntu as output
+
+chef-client — command to run on node called as convergence.
+
+knife environment list -w — to show all the enviroment
+knife environment compare dev
+knife environment compare dev prod — compare environments between dev and prod
+knife environment compare — all -to compare all receipes in server across all environments.
+
+knife environment delete dev -to delete env
+
+knife environment show dev — shows environment information.
+
+kniofe role create role_name — command to create new role
+knife role from file chef-repo/roles/rolename.rb — upload role(rolename.rb) to server
+
+knife role list -w — list all roles in chef server
+
+knife role delete role_name — delete the new role
+
+knife node run_list add linuxnode “role[webserver]” — assign role(web server)to a node(linuxnode)
+
+As similar to roles — we use base role.
+
+create a base role — and we can use include that base role to all roles runlist. so if you need to update any roles with new runlist. All you need to change is the base role list.
