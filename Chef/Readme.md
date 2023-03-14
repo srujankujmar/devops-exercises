@@ -412,6 +412,8 @@ knife bootstrap 192.168.56.102 --ssh-user root --ssh-password edureka --node-nam
 ![image](https://user-images.githubusercontent.com/61962773/224635973-530193a8-6aaf-4f24-8281-57af4abf2600.png)
 
 
+When you initially bootstrap your nodes, you can set the Chef Infra client to run immediately so the node is immediately configured correctly, and also set the Chef Infra client to run periodically so it can grab the latest updates to the cookbooks you uploaded to Chef Infra server.
+
 This command will also initialize the installation of the Chef-Client in the Chef Node. You can verify it from the CLI on the Workstation using the knife command, as shown below:
 
 Execute this:
