@@ -453,7 +453,7 @@ So that brings an end to this blog on Chef Tutorial. If you wish to check out mo
 
 
 
-Cheatsheet
+**Cheatsheet**
 
 Chef- Knife commands cheat sheet
 
