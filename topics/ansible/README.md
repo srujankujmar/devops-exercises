@@ -1,3 +1,5 @@
+## Ansible playbooks https://www.middlewareinventory.com/blog/ansible-playbook-example/#Example_Ansible_Playbook_with_multiple_hosts_and_multiple_plays
+
 ## Ansible
 
 <!-- {% raw %} -->
